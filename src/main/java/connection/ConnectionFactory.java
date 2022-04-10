@@ -8,19 +8,13 @@ import java.sql.Statement;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- * @Author: Technical University of Cluj-Napoca, Romania Distributed Systems
- *          Research Laboratory, http://dsrl.coned.utcluj.ro/
- * @Since: Apr 03, 2017
- * @Source: http://theopentutorials.com/tutorials/java/jdbc/jdbc-mysql-create-database-example/
- */
 public class ConnectionFactory {
 
 	private static final Logger LOGGER = Logger.getLogger(ConnectionFactory.class.getName());
 	private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
-	private static final String DBURL = "jdbc:mysql://localhost:3306/schooldb";
+	private static final String DBURL = "jdbc:mysql://localhost:3306/lucru";
 	private static final String USER = "root";
-	private static final String PASS = "root";
+	private static final String PASS = "bJUneZms19@";
 
 	private static ConnectionFactory singleInstance = new ConnectionFactory();
 

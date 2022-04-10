@@ -1,28 +1,16 @@
 package model;
 
-/**
- * @Author: Technical University of Cluj-Napoca, Romania Distributed Systems
- *          Research Laboratory, http://dsrl.coned.utcluj.ro/
- * @Since: Apr 03, 2017
- */
-public class Student {
+
+public class Client {
 	private int id;
 	private String name;
 	private String address;
 	private String email;
 	private int age;
 
-	public Student(int id, String name, String address, String email, int age) {
+	public Client(int id, String name, String address, String email, int age) {
 		super();
 		this.id = id;
-		this.name = name;
-		this.address = address;
-		this.email = email;
-		this.age = age;
-	}
-
-	public Student(String name, String address, String email, int age) {
-		super();
 		this.name = name;
 		this.address = address;
 		this.email = email;
@@ -71,7 +59,7 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", name=" + name + ", address=" + address + ", email=" + email + ", age=" + age
+		return "Client [id=" + id + ", name=" + name + ", address=" + address + ", email=" + email + ", age=" + age
 				+ "]";
 	}
 
